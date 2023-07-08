@@ -85,7 +85,7 @@ export default function Home() {
   // do that in this hook to avoid a hydration error
   useEffect(() => {
     randomizeTeams();
-  },);
+  }, []);
 
 
   return (
