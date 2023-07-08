@@ -25,7 +25,7 @@ export default function Grid(props) {
             setGameWon(true);
         }
 
-    }, [props.clear, usedPlayers]);
+    }, [props.clear, usedPlayers, props.id]);
 
     const addPlayer = (newPlayer) => {
         if (!usedPlayers.includes(newPlayer)) {
