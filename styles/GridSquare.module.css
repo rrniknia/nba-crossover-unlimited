@@ -1,0 +1,17 @@
+.grid-square {
+    width: 10rem;
+    height: 10rem;
+}
+
+.grid-square:hover {
+    background-color: #ced4da;
+}
+
+.grid-square:active {
+    background-color: #adb5bd;
+}
+
+.player-span:hover {
+    cursor: pointer;
+    background-color: #ced4da;
+}
