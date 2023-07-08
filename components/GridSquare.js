@@ -39,7 +39,7 @@ export default function GridSquare(props) {
 
         console.log(`Gridsquare ${props.id} has teams ${props.team1} and ${props.team2}`);
 
-    }, [props.clear, props.team1, props.team2])
+    }, [props.clear, props.team1, props.team2, props.id])
 
 
     // modal functionality
