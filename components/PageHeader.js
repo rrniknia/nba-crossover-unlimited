@@ -37,9 +37,9 @@ export default function PageHeader(props) {
                     <p>Some rules:</p>
                     <ul>
                         <li>Only players who have actually played a game with both teams count as an answer. <a
-                            href='https://www.nba.com/news/carmelo-anthony-trade-hawks-dennis-schroeder-trade-thunder-official'>Yes, technically Carmelo Anthony was a Hawk</a> for <a href='https://www.sportsnet.ca/basketball/nba/hawks-waive-carmelo-anthony-making-free-agent/'>five days.</a> No, that doesn&apost count for this game.
+                            href='https://www.nba.com/news/carmelo-anthony-trade-hawks-dennis-schroeder-trade-thunder-official'>Yes, technically Carmelo Anthony was a Hawk</a> for <a href='https://www.sportsnet.ca/basketball/nba/hawks-waive-carmelo-anthony-making-free-agent/'>five days.</a> No, that doesn&apos;t count for this game.
                         </li>
-                        <li>Once you use a player for one square, you can&apost use them again for other squares. Shout out to Jeff Green for helping me test this function.</li>
+                        <li>Once you use a player for one square, you can&apos;t use them again for other squares. Shout out to Jeff Green for helping me test this function.</li>
                         <li>Players that have played for previous iterations of a franchise (e.g. Memphis/Vancouver Grizzlies, OKC Thunder/Seattle Supersonics) count for the modern versions of those franchises.</li>
                     </ul>
                     <p>Have fun!</p>
