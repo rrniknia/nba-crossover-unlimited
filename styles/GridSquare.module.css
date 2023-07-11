@@ -1,6 +1,6 @@
 .grid-square {
-    width: 10rem;
-    height: 10rem;
+    width: 16vh;
+    height: 16vh;
 }
 
 .grid-square:hover {
@@ -14,4 +14,11 @@
 .player-span:hover {
     cursor: pointer;
     background-color: #ced4da;
+}
+
+@media (max-width: 600px) {
+    .grid-square {
+        height: 10vh;
+        width: 10vh;
+    }
 }

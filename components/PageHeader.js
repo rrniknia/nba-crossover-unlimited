@@ -17,12 +17,9 @@ export default function PageHeader(props) {
             <Navbar variant='light' bg='light' expand='lg' className='bg-body-tertiary'>
                 <Container>
                     <Navbar.Brand>NBA Crossover Unlimited</Navbar.Brand>
-                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                    <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="me-auto">
-                            <Nav.Link onClick={handleOpenModal}>Help</Nav.Link>
-                        </Nav>
-                    </Navbar.Collapse>
+                    <Nav className="me-auto">
+                        <Nav.Link onClick={handleOpenModal}>Help</Nav.Link>
+                    </Nav>
                 </Container>
             </Navbar>
             <br /><br />

@@ -91,13 +91,13 @@ export default function Home() {
   return (
     <>
       <PageHeader />
-      <Container>
+      <Container fluid>
         <Grid teams={teamList} clear={clearGrid} />
         <br />
 
-        <Row className='justify-content-center' xs={4}>
-          <Button onClick={randomizeTeams}>RANDOMIZE</Button>   {/*makes a new list of randomized teams, which will cause the Grid to re-render*/}
-          <Button onClick={handleGridClear}>RESET</Button>      {/*Only clears the grid squares without changing the teams.*/}
+        <Row className='justify-content-center'>
+          <Col xs='auto'><Button onClick={randomizeTeams}>RANDOMIZE</Button></Col>   {/*makes a new list of randomized teams, which will cause the Grid to re-render*/}
+          <Col xs='auto'><Button onClick={handleGridClear}>RESET</Button></Col>      {/*Only clears the grid squares without changing the teams.*/}
         </Row>
 
       </Container>

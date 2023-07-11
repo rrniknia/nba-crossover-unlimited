@@ -1,0 +1,11 @@
+.categorySquare {
+    height: 16vh;
+    width: 16vh;
+}
+
+@media (max-width: 600px) {
+    .categorySquare {
+        height: 10vh;
+        width: 10vh;
+    }
+}
