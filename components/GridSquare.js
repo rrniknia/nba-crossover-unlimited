@@ -114,6 +114,7 @@ export default function GridSquare(props) {
                         type="search"
                         placeholder="Enter a player name..."
                         onChange={handleSearch}
+                        autoFocus
                     />
                     <span id="searchResults">
                         <br />
